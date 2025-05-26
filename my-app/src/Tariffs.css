@@ -1,0 +1,67 @@
+.tariffs-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+}
+
+.tariff {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blue { background: #42A5F5; } 
+.green { background: #66BB6A; } 
+.red { background: #EF5350; } 
+.black { background: #424242; }
+
+.tariff.highlighted {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
+}
+
+.tariff h3 {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+}
+
+.tariff .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.tariff .monthly {
+    opacity: 0.8;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.tariff .speed {
+    margin: 20px 0;
+    font-weight: 500;
+    background-color: #f0f0f0;  
+    color: #333333;    
+    font-size: 14px;
+    padding: 15px 20px;   
+    border-top: 1px dashed rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
+.tariff .traffic {
+    background-color: #f0f0f0;  
+    color: #333333;    
+    font-size: 14px;
+    padding: 15px 20px;   
+    border-top: 1px dashed rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+}
+
