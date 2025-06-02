@@ -17,6 +17,12 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.tariff.selected {
+    border: 3px solid gold;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
 .blue { background: #42A5F5; } 
 .green { background: #66BB6A; } 
 .red { background: #EF5350; } 
